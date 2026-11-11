@@ -14,7 +14,7 @@ Se facilitan:
 - La carpeta `images` con las fotografías y el patrón del footer.
 - Dos imágenes orientativas del resultado final.
 
-Todos los textos necesarios ya están colocados dentro del `<body>` de `index.html`, junto con comentarios que indican las rutas de las imágenes y los datos del formulario. Tu trabajo consiste en organizar ese contenido mediante HTML y completar dentro de `<style>` la presentación general de la página.
+Todos los textos visibles necesarios ya están colocados dentro del `<body>` de `index.html`. Las rutas de las imágenes, los textos alternativos, los enlaces y la configuración del formulario se detallan en este enunciado. Tu trabajo consiste en organizar el contenido mediante HTML y completar dentro de `<style>` la presentación general de la página.
 
 ## Aspecto general solicitado
 
