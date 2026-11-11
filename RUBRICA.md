@@ -4,7 +4,7 @@ La calificación total es de **10 puntos**. Cada criterio permite obtener puntua
 
 | Criterio evaluable | Puntuación completa | Puntuación parcial | Máximo |
 |---|---|---|---:|
-| Fondo de la cabecera | Se aplica correctamente el color `#2f6f61` | La cabecera tiene un color de fondo reconocible, aunque no sea el solicitado | 0,50 |
+| Cabecera | Se aplica correctamente el color `#2f6f61` y existe espacio interior para que el título y el menú no queden pegados a los bordes | La cabecera tiene un color de fondo reconocible o alguno de sus elementos presenta separación respecto al borde | 0,50 |
 | Título y menú de la cabecera | **Huellas Felices** y los tres elementos del menú son blancos, legibles y están visiblemente separados | Se distingue el título y aparece al menos parte del menú con separación | 0,50 |
 | Color de los títulos de sección | **Animales en adopción** y **Contacta con nosotros** usan `#24564b` | Uno de los dos títulos usa el color solicitado | 0,50 |
 | Color de los datos de los animales | Los cuatro textos de raza y edad usan `#6b5e50` | El color se aplica al menos a uno de esos textos | 0,50 |
@@ -24,6 +24,12 @@ La calificación total es de **10 puntos**. Cada criterio permite obtener puntua
 | Formulario: campos obligatorios y límites | Nombre, correo y mensaje son obligatorios y respetan sus límites máximos: 60, 254 y 500 caracteres respectivamente | Al menos uno de los campos es obligatorio y respeta el límite indicado | 0,50 |
 | Formulario: envío | `action` contiene el endpoint indicado y se utiliza `method="post"` | Está configurado correctamente `action` o `method`, pero no ambos | 0,50 |
 | **TOTAL** |  |  | **10,00** |
+
+## Apoyo visual: espacio interior de las tarjetas
+
+En la siguiente imagen, la zona amarilla representa el espacio interior del bloque de texto situado debajo de la fotografía. La imagen ocupa todo el ancho de la tarjeta; el relleno se aplica al contenido textual para separarlo de los bordes laterales e inferior.
+
+<img src="ejemplo-relleno-interior-tarjeta.png" alt="Ejemplo del relleno aplicado únicamente al bloque de texto de una tarjeta" width="360">
 
 ## Aplicación de la puntuación parcial
 

@@ -17,6 +17,7 @@
 
     body {
       margin: 0;
+      
     }
 
     img {
@@ -27,9 +28,112 @@
     }
 
     /* Escribe aquí los estilos de la página excepto los del formulario. */
+    main {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2f6f61;
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: noneç;
+    }
+
+    .adoption {
+      display: flex;
+    }
   </style>
 </head>
 <body>
-  <!-- Construye aquí todo el HTML indicado en el enunciado. -->
+  <!-- CABECERA -->
+  <header>
+    <h1>Huellas Felices</h1>
+    <nav>
+      <a href="">Inicio</a>
+      <a href="">Adopciones</a>
+      <a href="">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- SECCIÓN DE ANIMALES -->
+  <main>
+    
+      <h2>Animales en adopción</h2>
+      <p>Ellos buscan un hogar. ¿Quieres conocerlos?</p>
+      <section class="adoption">
+      <!-- ANIMAL 1
+           Imagen: images/luna.png
+           Texto alternativo:
+      -->
+      <article>
+        <img src="images/luna.png" alt="Luna, perra mestiza de pelo claro en el jardín de la protectora">
+        <h3>Luna</h3>
+        <p>Perra mestiza · 4 años</p>
+        <p>Luna es cariñosa, tranquila y disfruta de los paseos. Se lleva bien con otros perros y busca una familia con la que compartir muchos momentos.</p>
+      </article>
+      <!-- ANIMAL 2
+           Imagen: images/milo.png
+           Texto alternativo: Milo, gato joven de color naranja en el jardín de la protectora
+      -->
+      <article>
+        Milo
+        Gato común europeo · 1 año
+        Milo es curioso, juguetón y muy sociable. Le encantan las caricias y observar todo desde un lugar alto.
+      </article>
+      <!-- ANIMAL 3
+           Imagen: images/nala.png
+           Texto alternativo: Nala, perra negra con una mancha blanca en el pecho
+      -->
+      Nala
+      Perra mestiza · 3 años
+      Nala es inteligente y activa. Aprende con rapidez, disfruta jugando y necesita un hogar que pueda ofrecerle paseos diarios.
+      <!-- ANIMAL 4
+           Imagen externa: https://protectorabaix.org/imas/animales/_3512/a_35121678310524.jpg
+           Texto alternativo: Escarcha, gata común europea de color claro
+           Enlace de la ficha: https://protectorabaix.org/ficha-3512
+      -->
+      Escarcha
+      Gata común europea · hembra
+      Escarcha es una gata de otra protectora y ya fue adoptada. Puedes conocer su historia en la web de Protectora Baix Vinalopó.
+    </section>
+    <!-- SECCIÓN DE CONTACTO -->
+    Contacta con nosotros
+    ¿Quieres adoptar o necesitas más información?
+    <!-- FORMULARIO
+         action: https://servicio-contacto.onrender.com/contecto
+         method: post
+         Nombre:
+         name: nombre
+         máximo: 60 caracteres
+         Correo electrónico:
+         name: correo
+         máximo: 254 caracteres
+         Mensaje:
+         name: comentario
+         máximo: 500 caracteres
+    -->
+    Nombre
+    Tu nombre
+    Correo electrónico
+    tu@email.com
+    Mensaje
+    Escribe tu mensaje...
+    Enviar mensaje
+  </main>
+
+  <!-- PIE DE PÁGINA
+       Imagen de fondo: images/animal-pattern-50.png
+       Tamaño del fondo: 50px 50px
+  -->
+  © 2026 Huellas Felices
 </body>
 </html>
