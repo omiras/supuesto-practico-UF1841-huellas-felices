@@ -46,6 +46,11 @@ Incluye:
 
 Cada animal aparecerá en una tarjeta visualmente separada de las demás. Debe contener nombre, datos, imagen y descripción. El contenido tendrá espacio interior entre el texto y el borde de la tarjeta.
 
+Para presentar las tarjetas:
+
+- Utiliza `background-color: #f7f3ec` como color de fondo.
+- Puedes aplicar `max-width: 250px` a cada tarjeta para limitar su anchura.
+
 **Luna**  
 Perra mestiza · 4 años  
 Luna es cariñosa, tranquila y disfruta de los paseos. Se lleva bien con otros perros y busca una familia con la que compartir muchos momentos.  
@@ -85,14 +90,14 @@ Construye un formulario con:
 
 | Campo | Configuración |
 |---|---|
-| Nombre | `input type="text"`, `name="nombre"`, `maxlength="60"`, obligatorio |
-| Correo electrónico | `input type="email"`, `name="correo"`, `maxlength="254"`, obligatorio |
-| Mensaje | `textarea`, `name="comentario"`, `maxlength="500"`, obligatorio |
+| Nombre | `name="nombre"`, obligatorio y 60 caracteres como máximo |
+| Correo electrónico | `name="correo"`, obligatorio, con formato de correo válido y 254 caracteres como máximo |
+| Mensaje | `name="comentario"`, obligatorio y 500 caracteres como máximo |
 | Envío | Botón con el texto **Enviar mensaje** |
 
 Cada campo tendrá una etiqueta asociada. El formulario utilizará `method="post"` y el siguiente valor en el atributo `action`:
 
-`https://servicio-contacto.onrender.com/contecto`
+`https://servicio-contacto.onrender.com/contacto`
 
 ### Pie de página
 

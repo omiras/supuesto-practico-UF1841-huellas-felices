@@ -31,7 +31,9 @@ textarea {
   resize: vertical;
 }
 
-button {
+button,
+input[type="submit"] {
+  width: auto;
   margin-top: 16px;
   padding: 10px 20px;
   color: #ffffff;
