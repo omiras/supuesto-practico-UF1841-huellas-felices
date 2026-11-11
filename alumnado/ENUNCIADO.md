@@ -49,6 +49,7 @@ Cada animal aparecerá en una tarjeta visualmente separada de las demás. Debe c
 Para presentar las tarjetas:
 
 - Utiliza `background-color: #f7f3ec` como color de fondo.
+- Aplica `border: 1px solid #d8cfc2` como borde de cada tarjeta.
 - Puedes aplicar `max-width: 250px` a cada tarjeta para limitar su anchura.
 
 **Luna**  

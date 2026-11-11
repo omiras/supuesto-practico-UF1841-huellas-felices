@@ -55,15 +55,19 @@
     }
 
     article {
-      max-width: 200px;
+      max-width: 250px;
       background-color: #f7f3ec;
       border-radius: 8px;
       overflow: hidden;
     }
 
-    h2,
-    h3 {
+    
+    h2 {
       color: #24564b
+    }
+
+    h3 {
+      color: #2f6f61;
     }
 
     .adoption__chars {
@@ -188,11 +192,11 @@
       -->
       <form action="https://servicio-contacto.onrender.com/contacto" method="post">
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
+        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required maxlength="60">
         <label for="correo">Correo electrónico</label>
-        <input type="email" name="correo" id="correo" placeholder="tu@correo.es" required>
+        <input type="email" name="correo" id="correo" placeholder="tu@correo.es" required maxlength="254">
         <label for="comentario">Mensaje</label>
-        <textarea name="comentario" id="comentario" placeholder="¿Qué nos quieres decir?" required></textarea>
+        <textarea name="comentario" id="comentario" placeholder="¿Qué nos quieres decir?" required maxlength="500"></textarea>
         <input type="submit" value="Enviar Mensaje"></input>
       </form>
     </section>
