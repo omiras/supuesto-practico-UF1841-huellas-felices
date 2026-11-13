@@ -20,6 +20,7 @@
 
     body {
       margin: 0;
+      font-family: sans-serif;
 
     }
 
@@ -106,7 +107,6 @@
 </head>
 
 <body>
-  <!-- CABECERA -->
   <header>
     <h1>Huellas Felices</h1>
     <nav>
@@ -116,16 +116,11 @@
     </nav>
   </header>
 
-  <!-- SECCIÓN DE ANIMALES -->
   <main>
 
     <h2>Animales en adopción</h2>
     <p>Ellos buscan un hogar. ¿Quieres conocerlos?</p>
     <section class="adoption">
-      <!-- ANIMAL 1
-           Imagen: images/luna.png
-           Texto alternativo:
-      -->
       <article>
         <img src="images/luna.png" alt="Luna, perra mestiza de pelo claro en el jardín de la protectora">
         <div class="container">
@@ -135,10 +130,6 @@
             con la que compartir muchos momentos.</p>
         </div>
       </article>
-      <!-- ANIMAL 2
-           Imagen: images/milo.png
-           Texto alternativo: Milo, gato joven de color naranja en el jardín de la protectora
-      -->
       <article>
         <img src="images/milo.png" alt="Milo, gato joven de color naranja en el jardín de la protectora">
         <div class="container">
@@ -147,24 +138,14 @@
           <p>Milo es curioso, juguetón y muy sociable. Le encantan las caricias y observar todo desde un lugar alto.</p>
         </div>
       </article>
-      <!-- ANIMAL 3
-           Imagen: images/nala.png
-           Texto alternativo: Nala, perra negra con una mancha blanca en el pecho
-      -->
       <article>
         <img src="images/nala.png" alt="Nala, perra negra con una mancha blanca en el pecho">
         <div class="container">
           <h3>Nala</h3>
           <p class="adoption__chars">Perra mestiza · 3 años</p>
-          <p>Nala es inteligente y activa. Aprende con rapidez, disfruta jugan
-            do y necesita un hogar que pueda ofrecerle paseos diarios.</p>
+          <p>Nala es inteligente y activa. Aprende con rapidez, disfruta jugando y necesita un hogar que pueda ofrecerle paseos diarios.</p>
         </div>
       </article>
-      <!-- ANIMAL 4
-           Imagen externa: https://protectorabaix.org/imas/animales/_3512/a_35121678310524.jpg
-           Texto alternativo: Escarcha, gata común europea de color claro
-           Enlace de la ficha: https://protectorabaix.org/ficha-3512
-      -->
       <article>
         <img src="https://protectorabaix.org/imas/animales/_3512/a_35121678310524.jpg"
           alt="Escarcha, gata común europea de color claro">
@@ -177,23 +158,9 @@
         </div>
       </article>
     </section>
-    <!-- SECCIÓN DE CONTACTO -->
     <section>
       <h2>Contacta con nosotros</h2>
       <p>¿Quieres adoptar o necesitas más información?</p>
-      <!-- FORMULARIO
-           action: https://servicio-contacto.onrender.com/contecto
-           method: post
-           Nombre:
-           name: name
-           máximo: 60 caracteres
-           Correo electrónico:
-           name: email
-           máximo: 254 caracteres
-           Mensaje:
-           name: message
-           máximo: 500 caracteres
-      -->
       <form action="https://servicio-contacto.onrender.com/contacto" method="post">
         <label for="name">Nombre</label>
         <input type="text" name="name" id="name" placeholder="Tu nombre" required maxlength="60">
@@ -201,15 +168,10 @@
         <input type="email" name="email" id="email" placeholder="tu@correo.es" required maxlength="254">
         <label for="message">Mensaje</label>
         <textarea name="message" id="message" placeholder="¿Qué nos quieres decir?" required maxlength="500"></textarea>
-        <input type="submit" value="Enviar Mensaje"></input>
+        <input type="submit" value="Enviar Mensaje">
       </form>
     </section>
   </main>
-
-  <!-- PIE DE PÁGINA
-       Imagen de fondo: images/animal-pattern-50.png
-       Tamaño del fondo: 50px 50px
-  -->
   <footer>
     <p>© 2026 Huellas Felices</p>
   </footer>
